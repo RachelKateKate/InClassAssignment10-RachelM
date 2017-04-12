@@ -6,11 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-/**
- * Created by rachelmiller on 4/11/17.
- */
-
-public class PlanetsInfo extends AppCompatActivity {
+public class PlanetsInfoActivity extends AppCompatActivity {
 
     TextView displayText;
     TextView nameText;
@@ -21,7 +17,7 @@ public class PlanetsInfo extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_planets_info);
+        setContentView(R.layout.activity_planets_info2);
 
         nameText = (TextView) findViewById(R.id.planet_name);
 
@@ -44,3 +40,5 @@ public class PlanetsInfo extends AppCompatActivity {
         image.setImageResource(p.getPhotoId());
     }
 }
+
+

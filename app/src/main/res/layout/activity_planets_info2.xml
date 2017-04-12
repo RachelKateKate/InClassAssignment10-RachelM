@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/activity_planets_info"
+<RelativeLayout android:id="@+id/activity_planets_info"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context="rachelmiller.inclassassignment10_rachelm.PlanetsInfoActivity">
+
 
     <TextView
         android:layout_width="match_parent"
@@ -23,3 +26,5 @@
         android:id="@+id/planet_photo" />
 
 </RelativeLayout>
+
+

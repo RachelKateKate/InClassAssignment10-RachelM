@@ -37,7 +37,7 @@ public class PlanetsViewHolder extends RecyclerView.ViewHolder {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(context, PlanetsInfo.class);
+                Intent i = new Intent(context, PlanetsInfoActivity.class);
                 i.putExtra(Keys.PLANETS, planets);
                 context.startActivity(i);
                 Toast.makeText(context, planetNameView.getText(), Toast.LENGTH_SHORT).show();
