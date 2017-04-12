@@ -27,7 +27,6 @@
             android:layout_toRightOf="@+id/planet_photo"
             android:textSize="30sp"
             tools:text="Mercury"
-
             />
 
         <TextView
